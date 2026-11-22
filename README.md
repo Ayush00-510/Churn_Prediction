@@ -147,12 +147,6 @@ The Random Forest model combined with SMOTEENN demonstrated the strongest report
 - **Recall:** 96%
 - **F1-Score:** 95%
 
-### Confusion Matrix
-
-| | Predicted No Churn | Predicted Churn |
-|---|---:|---:|
-| Actual No Churn | 478 | 40 |
-| Actual Churn | 27 | 625 |
 
 Additional experiments were performed using PCA to reduce dimensionality, but the PCA-based model did not improve performance compared with the Random Forest model without PCA.
 
